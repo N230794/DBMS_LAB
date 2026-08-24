@@ -5,7 +5,11 @@ CREATE TABLE Developers(
   DeveloperID INT PRIMARY KEY,
   DeveloperName VARCHAR(60) NOT NULL,
   Country VARCHAR(30),
+<<<<<<< HEAD
   FounderYear INT
+=======
+  FoundedYear INT
+>>>>>>> 4702fb388838629f4d64acfb9c19ff565d1d6a0b
   );
   
 CREATE TABLE Publishers(
